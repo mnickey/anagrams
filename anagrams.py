@@ -12,15 +12,18 @@ def index():
         myLetters = ''.join(sorted(myLetters))
         myLetters = myLetters.strip()
 
-        myWords = []
+        # myWords = []
         myLetterList = list(myLetters)
         lettersLength = len(myLetterList)
         myWords = [''.join(result) for result in permutations(myLetters)]
+        myWords = sorted(myWords)
 
-        with open("/usr/share/dict/words", 'rb') as defaultWords:
-            for word in myWords:
-                if word in defaultWords:
-                    myWords.append(word)
+        with open("/usr/share/dict/words") as defaultWords:
+            words = set(line.strip() for line in defaultWords)
+            for word in words:
+                if word not in words:
+                    myWords.remove(word)
+                    defaultWords.seek(0)
 
             # for x in myLetterList:
             #     for word in defaultWords:
