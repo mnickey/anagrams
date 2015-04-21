@@ -16,6 +16,14 @@
                 {% endfor %}
             </label>
         </p>
+        <p>
+            <label>
+                Your words are:
+                {% for word in myWords %}
+                {{ word.upper() }}
+                {% endfor %}
+            </label>
+        </p>
     </div>
     <div>
         <a href="{{ url_for('index') }}">Another Anagram</a>

@@ -10,9 +10,16 @@ def index():
         myLetters = request.form['letters']
         myLetters = ''.join(sorted(myLetters))
         myLetters = myLetters.strip()
-        myLetters = sorted(myLetters)
 
-        return render_template('solver.html', myLetters = myLetters)
+        myWords = []
+        myLetterList = list(myLetters)
+        lettersLength = len(myLetterList)
+
+        for x in myLetterList:
+            for word in open("/usr/share/dict/words"):
+                if x in word and word <= lettersLength:
+                    myWords.append(word)
+        return render_template('solver.html', myLetters = myLetters, myWords=myWords)
 
 if __name__ == '__main__':
     app.debug = True
