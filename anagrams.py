@@ -17,10 +17,10 @@ def index():
         lettersLength = len(myLetterList)
         myWords = [''.join(result) for result in permutations(myLetters)]
 
-        with open("/usr/share/dict/words") as defaultWords:
+        with open("/usr/share/dict/words", 'rb') as defaultWords:
             for word in myWords:
-                if word not in defaultWords:
-                    myWords.remove(word)
+                if word in defaultWords:
+                    myWords.append(word)
 
             # for x in myLetterList:
             #     for word in defaultWords:
@@ -29,17 +29,7 @@ def index():
             #                 continue
             #             else:
             #                 myWords.append(word)
-        return render_template('solver.html', myLetters = myLetters, myWords=myWords)
-
-def anagramTest(word):
-    results = anagrams.get(gethandle(word),[])
-    if len(results)>1:
-        word = word.join([item for item in results if item != word])
-    else:
-        word = "None"
-
-def gethandle(word):
-    return ("").join(sorted(word))
+        return render_template('solver.html', myLetters = myLetters, myWords = myWords)
 
 if __name__ == '__main__':
     app.debug = True
