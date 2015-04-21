@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Anagram Solver</title>
+</head>
+<body>
+<h1>This is the solver html file.</h1>
+<form>
+    <div>
+        <p>
+            <label>
+                Letters:
+                <input type="text" size="30" name="letters" placeholder="Enter your letters here", method="post">
+                <input type="submit" value="Find">
+            </label>
+        </p>
+        <p>
+            <label>
+                Your letters are:
+                {% for letter in myLetters %}
+                {{ letter }}
+                {% endfor %}
+            </label>
+        </p>
+    </div>
+</form>
+</body>
+</html>
