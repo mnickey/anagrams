@@ -12,18 +12,31 @@ def index():
         myLetters = ''.join(sorted(myLetters))
         myLetters = myLetters.strip()
 
-        # myWords = []
+        myWords = []
         myLetterList = list(myLetters)
-        lettersLength = len(myLetterList)
-        myWords = [''.join(result) for result in permutations(myLetters)]
-        myWords = sorted(myWords)
+        # lettersLength = len(myLetterList)
+        # myWords = [''.join(result) for result in permutations(myLetters)]
+        # myWords = sorted(myWords)
 
-        with open("/usr/share/dict/words") as defaultWords:
-            words = set(line.strip() for line in defaultWords)
-            for word in words:
-                if word not in words:
-                    myWords.remove(word)
-                    defaultWords.seek(0)
+        # with open("/usr/share/dict/words") as defaultWords:
+        #     words = set(line.strip() for line in defaultWords)
+        #     for word in words:
+        #         if word not in words:
+        #             myWords.remove(word)
+        #             defaultWords.seek(0) #move the seek position back to original area.
+
+
+        #From rousav at Thinkful
+        from collections import defaultdict
+        words = defaultdict(list)
+        with open("/usr/share/dict/words") as f:
+            for word in f:
+                word=word.strip()
+                words[''.join(sorted(word))].append(word)
+
+        import sys
+        for word in words:
+            myWords = (words[''.join(sorted(word))])
 
             # for x in myLetterList:
             #     for word in defaultWords:
