@@ -5,7 +5,7 @@ app = Flask(__name__)
 """ This is setting up the control dictionary to read against """
 from collections import defaultdict
 words = defaultdict(list)
-with open("/usr/share/dict/words") as f:
+with open("dictionary") as f:
     for word in f:
         word=word.strip()
         words[''.join(sorted(word))].append(word)
