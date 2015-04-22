@@ -1,1 +1,1 @@
-web: gunicorn anagrams:wsgi --log-file -
+web: gunicorn anagrams:app --log-file -
