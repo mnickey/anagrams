@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 # Created by .ignore support plugin (hsz.mobi)
 ### Python template
+=======
+>>>>>>> 29506c591d8f54cda2756ba2b66ee955a59c27ce
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -57,5 +60,8 @@ docs/_build/
 
 # PyBuilder
 target/
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 29506c591d8f54cda2756ba2b66ee955a59c27ce
