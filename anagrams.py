@@ -10,7 +10,7 @@ with open("/usr/share/dict/words") as f:
         word=word.strip()
         words[''.join(sorted(word))].append(word)
 
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/anagrams/', methods=['GET', 'POST'])
 def index():
     if request.method == 'GET':
         return render_template('main.html')
