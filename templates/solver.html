@@ -17,12 +17,11 @@
             </label>
         </p>
         <p>
-            <label>
-                Your words are:
+                Your words are: <br>
                 {% for word in myWords %}
-                {{ word.upper() }}
+                    {{ word.upper() }}  <a href="http://dictionary.reference.com/browse/{{word}}" target="_blank">Definition</a>
+                    <br>
                 {% endfor %}
-            </label>
         </p>
     </div>
     <div>
