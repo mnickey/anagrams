@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title>Anagram Solver</title>
-</head>
-<body>
+{% extends "base.html" %}
+{% block content %}
+
 <h1>This is the solver html file.</h1>
 <form method="post">
     <div>
@@ -28,5 +24,5 @@
         <a href="{{ url_for('index') }}">Another Anagram</a>
     </div>
 </form>
-</body>
-</html>
+
+{% endblock %}
