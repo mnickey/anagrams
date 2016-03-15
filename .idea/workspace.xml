@@ -28,9 +28,11 @@
       <file leaf-file-name="solver.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/solver.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8786611">
-              <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-              <folding />
+            <state vertical-scroll-proportion="0.09414226">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+              <folding>
+                <element signature="e#51#74#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -587,7 +589,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#51#74#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -641,7 +645,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#51#74#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -695,7 +701,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding />
+          <folding>
+            <element signature="e#51#74#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -749,7 +757,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#51#74#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -803,7 +813,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
-          <folding />
+          <folding>
+            <element signature="e#51#74#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -857,7 +869,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
-          <folding />
+          <folding>
+            <element signature="e#51#74#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -893,7 +907,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding />
+          <folding>
+            <element signature="e#51#74#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -921,7 +937,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding />
+          <folding>
+            <element signature="e#51#74#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1014,9 +1032,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/solver.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8786611">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-          <folding />
+        <state vertical-scroll-proportion="0.09414226">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding>
+            <element signature="e#51#74#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
