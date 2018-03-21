@@ -1,4 +1,4 @@
-__author__ = 'Chris Angellico'
+__author__ = 'Michael Nickey'
 # Modified by: 'Michael Nickey'
 
 import sys
